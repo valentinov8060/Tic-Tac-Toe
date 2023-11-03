@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style/reset.css">
+     <link rel="stylesheet" href="style/style.css">
+     <title>Tic Tac Toe</title>
+</head>
+<body>
+     <div class="board">
+          <div class="score-board">
+               <div class="player player-side">
+                    <span class="player-name">Player X:</span>
+                    <span class="player-score" id="score-X">0</span>
+               </div>
+
+               <div class="player co-op-button">
+                    Co-op
+               </div>
+               
+               <div class="player">
+                    <span class="player-name">Player O:</span>
+                    <span class="player-score" id="score-O">0</span>
+               </div>
+          </div>
+
+          <div class="tic-tac-toe-board">
+               <h1>Tic-Tac-Toe</h1>
+               <div class="cell-board">
+                    <div class="cell" data-cell></div> 
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+               </div>
+               <button class="restart-button">Restart</button>
+          </div>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
