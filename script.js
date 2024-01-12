@@ -168,7 +168,7 @@ function win(){
                stringScoreO.textContent = scoreO.toString();
                return;
      }
-}git 
+}
 
 function checkGameStatus() {
      win();
