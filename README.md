@@ -1,4 +1,4 @@
-# ticTacToe Game
+# Tic-Tac-Toe Game
 
 This project is a simple Tic-Tac-Toe game created using HTML, CSS, and JavaScript DOM. Tic-Tac-Toe is a two-player board game with the objective of achieving a horizontal, vertical, or diagonal line with three matching marks (X or O).
 
